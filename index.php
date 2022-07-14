@@ -85,7 +85,7 @@
         </section>
 
         <section id="projects">
-            <div class="container">
+            <div class="container" id="project-trofta">
                 <div class="col">
                     <h1 class="project-title">
                     Trofta
@@ -102,9 +102,9 @@
                 </div>
             </div>
             
-            <div class="container">
-                <div class="col">
-                    <h1 class="project-title">
+            <div class="container" id="project-vesuvio">
+                <div class="col" >
+                    <h1 class="project-title" >
                     Pizzeria Al Vesuvio
                     </h1>
                     <br>
@@ -114,7 +114,7 @@
                     
                 </div>
                 <div class="col">
-                    <img src="assets/trofta.png" alt="Trofta" width="100%">
+                    <img src="assets/al-vesuvio.png" alt="Trofta" width="100%">
                    
                 </div>
             </div>
