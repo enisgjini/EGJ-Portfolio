@@ -25,7 +25,9 @@ body {
     position: fixed;
     padding: 5px;
     backdrop-filter: blur(50px) saturate(180%);
-
+    background-color: #F5F5F5;
+    border-bottom: 1px solid;
+    padding: 10px;
 }
 
 .nav>.nav-header {
@@ -51,6 +53,7 @@ body {
     display: inline;
     float: right;
     font-size: 18px;
+
 }
 
 
@@ -62,7 +65,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    color: white;
+    color: #000000;
 }
 
 .nav>.nav-links>a:hover {
@@ -156,7 +159,22 @@ main {
 
 
 
+#home {
+    margin-bottom: 150px;
+    padding-top: 25px;
+}
 
+#about {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding-top: 25px;
+}
+
+#projects {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding-top: 25px;
+}
 
 
 

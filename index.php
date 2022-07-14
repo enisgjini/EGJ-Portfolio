@@ -29,7 +29,7 @@
 
     <br>
 
-    <main>
+    <main class="main">
         <section id="home">
             <div class="container">
                 <div class="col">
@@ -46,6 +46,7 @@
         <section id="about">
             <div class="container">
                 <div class="col">
+
                     <p class="about-me">I'm a product designer working on various projects on a wide range of clients.
                         My
                         skillset lies on creating branding packages & websites to deliver the full online experience for
@@ -84,7 +85,16 @@
         </section>
 
         <section id="projects">
-
+            <div class="container">
+                <div class="col">
+                    <p class="personal-info">I’m Arnau Ros, a graphic designer & content creator based in Barcelona.
+                        Available for freelance &
+                        collaborations. </p>
+                </div>
+                <div class="col">
+                    <img src="assets/profile.jpg" alt="" width="100%">
+                </div>
+            </div>
         </section>
 
         <section id="contact">
