@@ -92,9 +92,30 @@
                     </h1>
                     <br>
                     <p class="project-info">The "Trofta" website serves for the simplest display of things found in the media various social media (facebook,instagram,etc.) </p>
+                    <button class="demo-of-project">See live</button>
+                    <button class="code-of-project">Source code</button>
+                    
                 </div>
                 <div class="col">
-                    <img src="assets/trofta.png" alt="" width="100%">
+                    <img src="assets/trofta.png" alt="Trofta" width="100%">
+                   
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="col">
+                    <h1 class="project-title">
+                    Pizzeria Al Vesuvio
+                    </h1>
+                    <br>
+                    <p class="project-info">Pizzeria "Al Vesuvio" is a pizzeria which operates in the state of Italy. This website solves the problem of digitalization of the menu of this pizzeria. Making it more readable as well as more communicative with the person looking at the menu.  </p>
+                    <button class="demo-of-project">See live</button>
+                    <button class="code-of-project">Source code</button>
+                    
+                </div>
+                <div class="col">
+                    <img src="assets/trofta.png" alt="Trofta" width="100%">
+                   
                 </div>
             </div>
            
