@@ -18,39 +18,42 @@
 
     <!-- External Javascript -->
     <script src="app.js"></script>
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-
+    <!-- Including navbar(topbar) using statement called include -->
     <?php include("partials/navbar.php"); ?>
 
-    <br>
 
-    <div class="container">
-        <div class="col">
-            <h1 class="personal-info-title">I’m Arnau Ros, a graphic designer & content creator based in Barcelona.
-                Available for freelance & collaborations. </h1>
+    <section id="home">
+        <div class="container">
+            <div class="col">
+                <p class="personal-info">I’m Arnau Ros, a graphic designer & content creator based in Barcelona. Available for freelance &
+                    collaborations. </p>
+            </div>
+            <div class="col">
+                <img src="assets/profile.jpg" alt="" width="100%">
+            </div>
         </div>
-        <div class="col">
-            <img src="assets/profile.jpg" alt="" width="100%" height="75%">
-        </div>
-    </div>
+    </section>
 
-    <!-- Section of Project's -->
-    <!-- <?php include ("partials/project.php") ?> -->
+    <section id="about">
 
-    <!-- Section of Content Creation -->
-    <!-- <?php include ("partials/content-creation.php") ?> -->
+    </section>
 
-    <!-- Section of About Me -->
-    <!-- <?php include ("partials/about-me.php") ?> -->
+    <section id="projects">
 
-    <!-- Section of Infinite autoplay carousel -->
-    <!-- <?php include ("partials/infinite-autoplay-carousel.php") ?> -->
+    </section>
+
+    <section id="contact">
+
+    </section>
 
 
-    <!-- Section of What Clients Say -->
-    <!-- <?php include ("partials/what-client-say.php") ?> -->
 
 
 </body>

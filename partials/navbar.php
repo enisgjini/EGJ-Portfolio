@@ -2,7 +2,7 @@
     <input type="checkbox" id="nav-check">
     <div class="nav-header">
         <div class="nav-title">
-            EGJ
+           <a href="">EGJ</a> 
         </div>
     </div>
     <div class="nav-btn">

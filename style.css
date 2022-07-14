@@ -1,16 +1,18 @@
+/* Importing Neue Haas Grotesk Display Pro font */
 @import url('http://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
     box-sizing: border-box;
 }
+
 
 body {
     background-color: #F5F5F5;
 }
 
 
-/* Navbar Design */
+/* Navbar Design ~ Starts here*/
+
 .nav {
     width: 100%;
     height: 50px;
@@ -62,51 +64,51 @@ body {
     display: none;
 }
 
+
+
+
 .container {
     display: grid;
-    grid-template-columns: 48% 48%;
-    grid-column-gap: 4%;
-    justify-items: center;
+    grid-template-columns: 40% 40%;
+    grid-column-gap: 35%;
+    grid-row-gap: 20px;
+    justify-items: stretch;
     align-items: stretch;
 }
 
-.title-of-section {
-    width: 586.49px;
-    height: 52px;
-    font-family: 'Neue Haas Grotesk Display Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 45.0633px;
-    line-height: 52px;
-    color: #000000;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+.col {
+
+    display: flex;
+    justify-content: center;
 }
 
-.personal-info-title {
-    width: 100%;
-    color: #282828;
+
+
+.personal-info {
+    width: 773px;
+    height: 600px;
+    left: 0px;
+    top: 82px;
+
     font-family: 'Neue Haas Grotesk Display Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 69px;
     line-height: 79px;
-}
 
-.seperator {
-    /* Separator */
-
-
-    text-align: center;
-    width: 95%;
-    height: 2px;
-    border: solid #000000;
-
+    color: #282828;
 }
 
 
-  
+
+
+
+
+
+
+
+
+
 /* Responsive for mobile */
 @media (max-width:600px) {
     .nav>.nav-btn {
@@ -159,5 +161,9 @@ body {
     .nav>#nav-check:checked~.nav-links {
         height: calc(100vh - 50px);
         overflow-y: auto;
+    }
+
+    .column {
+        width: 100%;
     }
 }
