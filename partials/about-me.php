@@ -8,9 +8,8 @@
         <div class="column">
             <p class="cc-1">Enis is a Full Stack Developer who is extremely passionate about web development. He loves
                 creating website , webpage and others with unique functionalities. Focused on usable and intuitive UI/UX
-                while committing to clean code, agile development, and appropriate design patterns.</p>
-            <br>
-            <p class="cc-1">Working with Enis starts with a productive flow of discussions that aim to create an website
+                while committing to clean code, agile development, and appropriate design patterns.
+                Working with Enis starts with a productive flow of discussions that aim to create an website
                 or something else that targets user’s needs while exceeding client’s expectations. Enis is a complete
                 stack developer that manages frontline (client) development and backend (server) development.</p>
         </div>

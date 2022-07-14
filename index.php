@@ -45,10 +45,12 @@
     <!-- Section of About Me -->
     <?php include ("partials/about-me.php") ?>
 
-    <br>
     <!-- Section of Infinite autoplay carousel -->
     <?php include ("partials/infinite-autoplay-carousel.php") ?>
 
+
+    <!-- Section of What Clients Say -->
+    <?php include ("partials/what-client-say.php") ?>
 
 
 </body>
