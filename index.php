@@ -37,20 +37,20 @@
     </div>
 
     <!-- Section of Project's -->
-    <?php include ("partials/project.php") ?>
+    <!-- <?php include ("partials/project.php") ?> -->
 
     <!-- Section of Content Creation -->
-    <?php include ("partials/content-creation.php") ?>
+    <!-- <?php include ("partials/content-creation.php") ?> -->
 
     <!-- Section of About Me -->
-    <?php include ("partials/about-me.php") ?>
+    <!-- <?php include ("partials/about-me.php") ?> -->
 
     <!-- Section of Infinite autoplay carousel -->
-    <?php include ("partials/infinite-autoplay-carousel.php") ?>
+    <!-- <?php include ("partials/infinite-autoplay-carousel.php") ?> -->
 
 
     <!-- Section of What Clients Say -->
-    <?php include ("partials/what-client-say.php") ?>
+    <!-- <?php include ("partials/what-client-say.php") ?> -->
 
 
 </body>

@@ -14,9 +14,9 @@
     </div>
 
     <div class="nav-links">
-        <a href="//github.io/jo_geek" target="_blank">Work</a>
-        <a href="http://stackoverflow.com/users/4084003/" target="_blank">About</a>
-        <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank">Contact</a>
-        <a href="https://codepen.io/jo_Geek/" target="_blank">Other</a>
+        <a href="home.php">Home</a>
+        <a href="about.php">About</a>
+        <a href="projects.php">Projects</a>
+        <a href="contact.php">Contact</a>
     </div>
 </div>
