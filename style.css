@@ -69,33 +69,21 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 40% 40%;
-    grid-column-gap: 35%;
-    grid-row-gap: 20px;
+    grid-template-columns: 45% 45%;
+    grid-column-gap: 10%;
     justify-items: stretch;
     align-items: stretch;
 }
 
-.col {
-
-    display: flex;
-    justify-content: center;
-}
 
 
 
 .personal-info {
-    width: 773px;
-    height: 600px;
-    left: 0px;
-    top: 82px;
-
     font-family: 'Neue Haas Grotesk Display Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 69px;
     line-height: 79px;
-
     color: #282828;
 }
 
