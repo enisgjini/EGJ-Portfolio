@@ -27,63 +27,71 @@
     <!-- Including navbar(topbar) using statement called include -->
     <?php include("partials/navbar.php"); ?>
 
+    <br>
 
-    <section id="home">
-        <div class="container">
-            <div class="col">
-                <p class="personal-info">I’m Arnau Ros, a graphic designer & content creator based in Barcelona.
-                    Available for freelance &
-                    collaborations. </p>
-            </div>
-            <div class="col">
-                <img src="assets/profile.jpg" alt="" width="100%">
-            </div>
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
-            <div class="col">
-                <p class="about-me">I'm a product designer working on various projects on a wide range of clients. My
-                    skillset lies on creating branding packages & websites to deliver the full online experience for new
-                    and also veteran businesses.</p>
-                <p class="about-me"> You can often find me creating videos about design over on YouTube, or sharing my
-                    thoughts on my podcast, Dialogue With Designers . I'm passionate about giving back and teaching what
-                    I know to the next generation of designers.‍</p>
-            </div>
-            <div class="col">
-                <button class="accordion">Branding/Logo</button>
-                <div class="panel">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <main>
+        <section id="home">
+            <div class="container">
+                <div class="col">
+                    <p class="personal-info">I’m Arnau Ros, a graphic designer & content creator based in Barcelona.
+                        Available for freelance &
+                        collaborations. </p>
                 </div>
-
-                <button class="accordion">Section 2</button>
-                <div class="panel">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="col">
+                    <img src="assets/profile.jpg" alt="" width="100%">
                 </div>
-
-                <button class="accordion">Section 3</button>
-                <div class="panel">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="projects">
+        <section id="about">
+            <div class="container">
+                <div class="col">
+                    <p class="about-me">I'm a product designer working on various projects on a wide range of clients.
+                        My
+                        skillset lies on creating branding packages & websites to deliver the full online experience for
+                        new
+                        and also veteran businesses.</p>
+                    <p class="about-me"> You can often find me creating videos about design over on YouTube, or sharing
+                        my
+                        thoughts on my podcast, Dialogue With Designers . I'm passionate about giving back and teaching
+                        what
+                        I know to the next generation of designers.‍</p>
+                </div>
+                <div class="col">
+                    <button class="accordion">Branding/Logo</button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
 
-    </section>
+                    <button class="accordion">Packaging</button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
 
-    <section id="contact">
+                    <button class="accordion">Websites</button>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
 
-    </section>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+
+        </section>
+
+        <section id="contact">
+
+        </section>
+    </main>
+
 
 
 
