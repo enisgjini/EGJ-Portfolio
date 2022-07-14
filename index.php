@@ -87,14 +87,17 @@
         <section id="projects">
             <div class="container">
                 <div class="col">
-                    <p class="personal-info">I’m Arnau Ros, a graphic designer & content creator based in Barcelona.
-                        Available for freelance &
-                        collaborations. </p>
+                    <h1 class="project-title">
+                    Trofta
+                    </h1>
+                    <br>
+                    <p class="project-info">The "Trofta" website serves for the simplest display of things found in the media various social media (facebook,instagram,etc.) </p>
                 </div>
                 <div class="col">
-                    <img src="assets/profile.jpg" alt="" width="100%">
+                    <img src="assets/trofta.png" alt="" width="100%">
                 </div>
             </div>
+           
         </section>
 
         <section id="contact">

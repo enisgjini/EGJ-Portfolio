@@ -176,6 +176,25 @@ main {
     padding-top: 25px;
 }
 
+.project-title {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45.0633px;
+    line-height: 52px;
+    border-bottom: 1px solid black;
+    margin: 15px;
+}
+
+.project-info {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    color: #000000;
+    margin: 15px;
+}
 
 
 
