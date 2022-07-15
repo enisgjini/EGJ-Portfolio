@@ -79,11 +79,12 @@ body {
     display: none;
 }
 
-.egj{
+.egj {
     text-decoration: none;
     color: #000000;
 }
-.egj:hover{
+
+.egj:hover {
     color: rgba(0, 0, 0, 0.3);
 }
 
@@ -197,17 +198,20 @@ main {
     margin-bottom: 150px;
     padding-top: 25px;
 }
+
 #project-HIB {
     margin-top: 150px;
     margin-bottom: 150px;
     padding-top: 25px;
 }
-#project-Sursee{
+
+#project-Sursee {
     margin-top: 150px;
     margin-bottom: 150px;
     padding-top: 25px;
 }
-#project-BMI{
+
+#project-BMI {
     margin-top: 150px;
     margin-bottom: 150px;
     padding-top: 25px;
@@ -277,6 +281,83 @@ main {
     border-radius: 3px;
     cursor: pointer;
     box-shadow: 10px 7px #888888;
+}
+
+
+
+#frmContact {
+    border-top: #a2d0c8 2px solid;
+    background: #b1e2da;
+    padding: 10px;
+}
+
+#frmContact div {
+    margin-bottom: 20px;
+}
+
+#frmContact div label {
+    margin: 5px 0px 0px 5px;
+    color: #49615d;
+}
+
+.demoInputBox {
+    padding: 10px;
+    border: #a5d2ca 1px solid;
+    border-radius: 4px;
+    background-color: #FFF;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.error {
+    background-color: #FF6600;
+    padding: 8px 10px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.success {
+    background-color: #c3c791;
+    padding: 8px 10px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.info {
+    font-size: .8em;
+    color: #FF6600;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
+
+.btnAction {
+    background-color: #82a9a2;
+    padding: 10px 40px;
+    color: #FFF;
+    border: #739690 1px solid;
+    border-radius: 4px;
+}
+
+.btnAction:focus {
+    outline: none;
+}
+
+.column-right {
+    margin-right: 6px;
+}
+
+.contact-row {
+    display: inline-block;
+    width: 32%;
+}
+
+@media all and (max-width: 550px) {
+    .contact-row {
+        display: block;
+        width: 100%;
+    }
 }
 
 
