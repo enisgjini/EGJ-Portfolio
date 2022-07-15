@@ -1,3 +1,69 @@
+<?php
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\SMTP;
+    use PHPMailer\PHPMailer\Exception;
+
+    require 'includes/PHPMailer.php' ;
+    require 'includes/SMTP.php' ;
+    require 'includes/Exception.php';
+
+    
+    
+    // Create instance of phpmailer
+    $mail = new PHPMailer(true);
+
+    try{
+        $mail->isSMTP();    
+        $mail->Host         =   "smtp.gmail.com";
+        $mail->SMTPAuth     =   true;
+        $mail->Username     =   "gjinienis148@gmail.com";
+        $mail->Password     =   "xeffgmywsgghjury";
+        $mail->SMTPSecure   =   PHPMailer::ENCRYPTION_SMTPS;
+        $mail->Port         =   465;
+        $mail->setFrom('gjinienis148@gmail.com' , 'Mailer');
+        $mail->addAddress("egjini17@gmail.com");
+        $mail->isHTML(true);
+        $mail->Subject = 'Here is the subject';
+        $mail->Body = 'This is the HTML message body <b> in bold!</b>';
+        $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+        $mail->send();
+        echo 'Message has been sent';
+    }
+    catch (Exception $e){
+
+    }
+   
+    // Set mailer to use smtp
+    
+    // Define smtp host
+    
+    //  Enable smtp authentication
+    
+    // Set type of encryption (ssL/tLs)
+    
+    // Set port to connect smtp
+   
+    // Set gmail username
+   
+    // Set email subject
+    $mail->Subject="Test123";
+    // Set sender email
+    
+    // Email body
+    $mail->Body="This is a plain text enail body";
+    // Add recipient
+    
+    //  Finally send email
+    if($mail->Send()){
+        echo "Email Sent..!";
+    }else{
+        echo "Error!";
+    }
+    // Closing smtp connection
+    $mail->smtpClose();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
