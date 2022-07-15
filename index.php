@@ -5,8 +5,11 @@
     <!-- Here are meta tag's -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Security-Policy" content="script-src-elem 'none'">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="script-src 'none'">
+    <meta name="description" content="Author: A.N. Author,
+    Illustrator: P. Picture, Category: Books, Price: $17.99,
+    Length: 784 pages">
 
     <!-- Fav Icon of webpage -->
     <link rel="icon" type="image/png" href="assets/favicon.ico">
