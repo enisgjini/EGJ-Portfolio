@@ -1,5 +1,5 @@
 <div class="nav" id="navbar">
-    <input type="checkbox" id="nav-check">
+    <input type="checkbox" id="nav-check" placeholder=""  aria-labelledby="temperature low">
     <div class="nav-header">
         <div class="nav-title">
            <a href="index.php">EGJ</a> 
