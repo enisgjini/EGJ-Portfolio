@@ -37,7 +37,7 @@
                         collaborations. </p>
                 </div>
                 <div class="col">
-                    <img src="assets/profile.jpg" alt="" width="100%" loading="lazy">
+                    <img src="assets/profile.jpg" alt="" width="100%" height="100%" loading="lazy">
                 </div>
             </div>
         </section>
