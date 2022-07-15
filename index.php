@@ -3,65 +3,33 @@
     use PHPMailer\PHPMailer\SMTP;
     use PHPMailer\PHPMailer\Exception;
 
-    require 'includes/PHPMailer.php' ;
-    require 'includes/SMTP.php' ;
-    require 'includes/Exception.php';
+    require 'PHPMailer/src/Exception.php';
+    require 'PHPMailer/src/PHPMailer.php' ;
+    require 'PHPMailer/src/SMTP.php' ;
 
     
-    
-    // Create instance of phpmailer
-    $mail = new PHPMailer(true);
 
-    try{
+    if(isset($_POST["send"])){
+        $mail = new PHPMailer(true);
         $mail->isSMTP();    
         $mail->Host         =   "smtp.gmail.com";
         $mail->SMTPAuth     =   true;
-        $mail->Username     =   "gjinienis148@gmail.com";
-        $mail->Password     =   "xeffgmywsgghjury";
+        $mail->Username     =   "tt525054@gmail.com";
+        $mail->Password     =   "fckdfuritbkmfbmg";
         $mail->SMTPSecure   =   PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port         =   465;
-        $mail->setFrom('gjinienis148@gmail.com' , 'Mailer');
-        $mail->addAddress("egjini17@gmail.com");
+        $mail->setFrom('tt525054@gmail.com' , 'Mailer');
+        $mail->addAddress("tt525054@gmail.com");
         $mail->isHTML(true);
-        $mail->Subject = 'Here is the subject';
-        $mail->Body = 'This is the HTML message body <b> in bold!</b>';
-        $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-
+        $mail->Subject = $_POST["subject"];
+        $mail->Body = $_POST["message"];
+       
         $mail->send();
-        echo 'Message has been sent';
+        echo '<script>alert("Message has been sent")</script>';
     }
-    catch (Exception $e){
-
+    else{
+        echo "<script>alert('Message could not be sent')</script>";
     }
-   
-    // Set mailer to use smtp
-    
-    // Define smtp host
-    
-    //  Enable smtp authentication
-    
-    // Set type of encryption (ssL/tLs)
-    
-    // Set port to connect smtp
-   
-    // Set gmail username
-   
-    // Set email subject
-    $mail->Subject="Test123";
-    // Set sender email
-    
-    // Email body
-    $mail->Body="This is a plain text enail body";
-    // Add recipient
-    
-    //  Finally send email
-    if($mail->Send()){
-        echo "Email Sent..!";
-    }else{
-        echo "Error!";
-    }
-    // Closing smtp connection
-    $mail->smtpClose();
 ?>
 
 <!DOCTYPE html>
@@ -262,31 +230,11 @@
                 </div>
                 <div class="col">
                     <form id="frmContact" action="" method="post">
-                        <div id="mail-status"></div>
-                        <div class="contact-row column-right">
-                            <label style="padding-top: 20px;">Name</label> <span id="userName-info"
-                                class="info"></span><br /> <input type="text" name="userName" id="userName"
-                                class="demoInputBox">
-                        </div>
-                        <div class="contact-row column-right">
-                            <label>Email</label> <span id="userEmail-info" class="info"></span><br />
-                            <input type="text" name="userEmail" id="userEmail" class="demoInputBox">
-                        </div>
-                        <div class="contact-row">
-                            <label>Phone</label> <span id="subject-info" class="info"></span><br />
-                            <input type="text" name="subject" id="subject" class="demoInputBox">
-                        </div>
-                        <div>
-                            <label>Message</label> <span id="content-info" class="info"></span><br />
-                            <textarea name="content" id="content" class="demoInputBox" rows="3"></textarea>
-                        </div>
-                        <div>
-                            <input type="submit" value="Send" class="btnAction" />
-                        </div>
+                        <p>Subject <input type="text" name="subject" id="" value=""></p>
+                        <p>Message <input type="text" name="message" id="" value=""></p>
+                        <button type="submit" name="send">Send</button>
                     </form>
-                    <div id="loader-icon" style="display: none;">
-                        <img src="LoaderIcon.gif" />
-                    </div>
+                    
                 </div>
             </div>
         </section>
