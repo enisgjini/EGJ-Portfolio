@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,10 +17,6 @@
 
     <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
-
-
-
-
 </head>
 
 <body>
