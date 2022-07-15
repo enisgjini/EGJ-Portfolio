@@ -22,9 +22,6 @@
 <body>
     <!-- Including navbar(topbar) using statement called include -->
     <?php include("partials/navbar.php"); ?>
-
-    <br>
-
     <main class="main">
         <section id="home">
             <div class="container">
