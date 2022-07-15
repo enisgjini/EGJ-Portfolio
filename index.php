@@ -5,7 +5,7 @@
     <!-- Here are meta tag's -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Content-Security-Policy" content="script-src-elem 'none'">
+    <!-- <meta http-equiv="Content-Security-Policy" content="script-src-elem 'none'"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Enis Gjini,StarLabs,Intern,Kosovo">
 
@@ -38,7 +38,7 @@
                         collaborations. </p>
                 </div>
                 <div class="col">
-                    <img src="assets/profile.jpg" alt="" width="100%" height="100%" loading="lazy">
+                    <img src="assets/profile.webp" alt="" width="100%" height="100%" loading="lazy">
                 </div>
             </div>
         </section>
@@ -92,12 +92,12 @@
                     </h1>
                     <br>
                     <p class="project-info">The "Trofta" website serves for the simplest display of things found in the media various social media (facebook,instagram,etc.) </p>
-                    <button class="demo-of-project">See live</button>
-                    <button class="code-of-project">Source code</button>
+                    <a href="https://trofta.netlify.app/index.html" target="_blank"><button class="demo-of-project">See live</button></a>
+                    <a href="https://github.com/enisgjini/trofta-website" target="_blank"> <button class="code-of-project">Source code</button></a>
                     
                 </div>
                 <div class="col">
-                    <img src="assets/trofta.png" alt="Trofta" width="100%" height="100%" loading="lazy">
+                    <img src="assets/trofta.webp" alt="Trofta" width="100%" height="100%" loading="lazy">
                    
                 </div>
             </div>
@@ -109,12 +109,12 @@
                     </h1>
                     <br>
                     <p class="project-info">Pizzeria "Al Vesuvio" is a pizzeria which operates in the state of Italy. This website solves the problem of digitalization of the menu of this pizzeria. Making it more readable as well as more communicative with the person looking at the menu.  </p>
-                    <a href=""><button class="demo-of-project">See live</button></a>
-                    <button class="code-of-project">Source code</button>
+                    <a href="http://enisgj-11.epizy.com/?i=1" target="_blank"><button class="demo-of-project">See live</button></a>
+                    <a href="https://github.com/enisgjini/pizzeria-al-vesuvio" target="_blank"> <button class="code-of-project">Source code</button></a>
                     
                 </div>
                 <div class="col">
-                    <img src="assets/al-vesuvio.png" alt="Pizzeria Al Vesuvio" width="100%" height="100%" loading="lazy">
+                    <img src="assets/al-vesuvio.webp" alt="Pizzeria Al Vesuvio" width="100%" height="100%" loading="lazy">
                    
                 </div>
             </div>
@@ -126,12 +126,12 @@
                     </h1>
                     <br>
                     <p class="project-info">HIB Petrol' is a company that deals with the transportation and sale of petroleum products throughout the territory of the Republic of Kosovo. But this project is part of the restaurants managed by this company and below is the explanation.</p>
-                    <button class="demo-of-project">See live</button>
-                    <button class="code-of-project">Source code</button>
+                    <a href="http://enisgj-10.epizy.com/?i=1" target="_blank"><button class="demo-of-project">See live</button></a>
+                    <a href="https://github.com/enisgjini/hibpetrol-web-application" target="_blank"> <button class="code-of-project">Source code</button></a>
                     
                 </div>
                 <div class="col">
-                    <img src="assets/hib.png" alt="HIB" width="100%" height="100%" loading="lazy">
+                    <img src="assets/hib.webp" alt="HIB" width="100%" height="100%" loading="lazy">
                    
                 </div>
             </div>
@@ -141,13 +141,13 @@
                     Taxizentrale Sursee
                     </h1>
                     <br>
-                    <p class="project-info">HIB Petrol' is a company that deals with the transportation and sale of petroleum products throughout the territory of the Republic of Kosovo. But this project is part of the restaurants managed by this company and below is the explanation.</p>
-                    <button class="demo-of-project">See live</button>
-                    <button class="code-of-project">Source code</button>
+                    <p class="project-info">Taxi Website Content is a vital component of effective Taxi Website Design. While content includes graphics, photo galleries and images, what Search Engines such as Google and Yahoo are especially fond of is a website that is rich in text.</p>
+                    <a href="https://taxizentrale-sursee.netlify.app/" target="_blank"><button class="demo-of-project">See live</button></a>
+                    <a href="https://github.com/enisgjini/taxizentrale-sursee" target="_blank"> <button class="code-of-project">Source code</button></a>
                     
                 </div>
                 <div class="col">
-                    <img src="assets/taxi.png" alt="Sursee" width="100%" height="100%" loading="lazy">
+                    <img src="assets/taxi.webp" alt="Sursee" width="100%" height="100%" loading="lazy">
                    
                 </div>
             </div>
@@ -159,12 +159,12 @@
                     </h1>
                     <br>
                     <p class="project-info">Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women. The BMI application for a particular calculation of it look the same weight and weight person. The formula is BMI = kg / m2 where kg is the weight of a person in kilograms and m2 is his weight in meters squared. A BMI of 25.0 or more is overweight, while the healthy range is from 18.5 to 24.9. </p>
-                    <button class="demo-of-project">Download</button>
-                    <button class="code-of-project">Source code</button>
+                    <a href="https://github.com/enisgjini/bmi/releases/download/v1.0.0/app-release.apk" target="_blank"><button class="demo-of-project">Download <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjYiIGhlaWdodD0iMjYiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjMzBkYzgwIiBkPSJNMjQsMTQuMDg4QzExLjQyNywxNC4wODgsMS4xMDgsMjMuNzE2LDAsMzZoNDhDNDYuODkyLDIzLjcxNiwzNi41NzMsMTQuMDg4LDI0LDE0LjA4OHogTTMzLjE3OSwyNy4wNzljMC0xLjEwNCwwLjg5NS0xLjk5OSwxLjk5OS0xLjk5OWMxLjEwNCwwLDEuOTk5LDAuODk1LDEuOTk5LDEuOTk5YzAsMS4xMDQtMC44OTUsMS45OTktMS45OTksMS45OTkJQzM0LjA3NCwyOS4wNzgsMzMuMTc5LDI4LjE4MywzMy4xNzksMjcuMDc5eiBNMTIuODIyLDI5LjA3OGMtMS4xMDQsMC0xLjk5OS0wLjg5NS0xLjk5OS0xLjk5OWMwLTEuMTA0LDAuODk1LTEuOTk5LDEuOTk5LTEuOTk5CXMxLjk5OSwwLjg5NSwxLjk5OSwxLjk5OUMxNC44MjEsMjguMTgzLDEzLjkyNiwyOS4wNzgsMTIuODIyLDI5LjA3OHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMzBkYzgwIiBkPSJNMzQuMDM4LDE5LjMxM2MtMC4xNCwwLTAuMjgxLTAuMDM1LTAuNDEtMC4xMWMtMC4zOTMtMC4yMjctMC41MjctMC43MjktMC4zMDEtMS4xMjJsNS4xOTctOS4wMDgJYzAuMjI3LTAuMzk0LDAuNzI5LTAuNTI5LDEuMTIyLTAuMzAxYzAuMzkzLDAuMjI3LDAuNTI3LDAuNzI5LDAuMzAxLDEuMTIybC01LjE5Nyw5LjAwOEMzNC41OTgsMTkuMTY2LDM0LjMyMiwxOS4zMTMsMzQuMDM4LDE5LjMxMwl6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzMwZGM4MCIgZD0iTTEzLjk2MiwxOS4zMTNjLTAuMjg0LDAtMC41Ni0wLjE0OC0wLjcxMi0wLjQxMUw4LjA1NCw5Ljg5NEM3LjgyNyw5LjUwMSw3Ljk2Miw4Ljk5OSw4LjM1NCw4Ljc3MgljMC4zOTItMC4yMjgsMC44OTUtMC4wOTMsMS4xMjIsMC4zMDFsNS4xOTcsOS4wMDhjMC4yMjcsMC4zOTQsMC4wOTIsMC44OTYtMC4zMDEsMS4xMjJDMTQuMjQzLDE5LjI3OCwxNC4xMDIsMTkuMzEzLDEzLjk2MiwxOS4zMTN6Ij48L3BhdGg+PC9zdmc+"/></button></a>
+                    <a href="https://github.com/enisgjini/bmi" target="_blank"> <button class="code-of-project">Source code</button></a>
                     
                 </div>
                 <div class="col">
-                    <img src="assets/bmi.png" alt="BMI" width="100%" height="100%" loading="lazy">
+                    <img src="assets/bmi.webp" alt="BMI" width="100%" height="100%" loading="lazy">
                    
                 </div>
             </div>
