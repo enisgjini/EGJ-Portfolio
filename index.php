@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'none'">
 
     <!-- Fav Icon of webpage -->
     <link rel="icon" type="image/png" href="assets/favicon.ico">
@@ -18,8 +19,6 @@
 
 
 
-    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -38,7 +37,7 @@
                         collaborations. </p>
                 </div>
                 <div class="col">
-                    <img src="assets/profile.jpg" alt="" width="100%">
+                    <img src="assets/profile.jpg" alt="" width="100%" loading="lazy">
                 </div>
             </div>
         </section>
@@ -97,7 +96,7 @@
                     
                 </div>
                 <div class="col">
-                    <img src="assets/trofta.png" alt="Trofta" width="100%">
+                    <img src="assets/trofta.png" alt="Trofta" width="100%" loading="lazy">
                    
                 </div>
             </div>
@@ -109,12 +108,62 @@
                     </h1>
                     <br>
                     <p class="project-info">Pizzeria "Al Vesuvio" is a pizzeria which operates in the state of Italy. This website solves the problem of digitalization of the menu of this pizzeria. Making it more readable as well as more communicative with the person looking at the menu.  </p>
+                    <a href=""><button class="demo-of-project">See live</button></a>
+                    <button class="code-of-project">Source code</button>
+                    
+                </div>
+                <div class="col">
+                    <img src="assets/al-vesuvio.png" alt="Pizzeria Al Vesuvio" width="100%" loading="lazy">
+                   
+                </div>
+            </div>
+
+            <div class="container" id="project-HIB">
+                <div class="col" >
+                    <h1 class="project-title" >
+                    HIB
+                    </h1>
+                    <br>
+                    <p class="project-info">HIB Petrol' is a company that deals with the transportation and sale of petroleum products throughout the territory of the Republic of Kosovo. But this project is part of the restaurants managed by this company and below is the explanation.</p>
                     <button class="demo-of-project">See live</button>
                     <button class="code-of-project">Source code</button>
                     
                 </div>
                 <div class="col">
-                    <img src="assets/al-vesuvio.png" alt="Trofta" width="100%">
+                    <img src="assets/hib.png" alt="HIB" width="100%" loading="lazy">
+                   
+                </div>
+            </div>
+            <div class="container" id="project-Sursee">
+                <div class="col" >
+                    <h1 class="project-title" >
+                    Taxizentrale Sursee
+                    </h1>
+                    <br>
+                    <p class="project-info">HIB Petrol' is a company that deals with the transportation and sale of petroleum products throughout the territory of the Republic of Kosovo. But this project is part of the restaurants managed by this company and below is the explanation.</p>
+                    <button class="demo-of-project">See live</button>
+                    <button class="code-of-project">Source code</button>
+                    
+                </div>
+                <div class="col">
+                    <img src="assets/taxi.png" alt="Sursee" width="100%" loading="lazy">
+                   
+                </div>
+            </div>
+
+            <div class="container" id="project-BMI">
+                <div class="col" >
+                    <h1 class="project-title" >
+                    BMI
+                    </h1>
+                    <br>
+                    <p class="project-info">Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women. The BMI application for a particular calculation of it look the same weight and weight person. The formula is BMI = kg / m2 where kg is the weight of a person in kilograms and m2 is his weight in meters squared. A BMI of 25.0 or more is overweight, while the healthy range is from 18.5 to 24.9. </p>
+                    <button class="demo-of-project">Download</button>
+                    <button class="code-of-project">Source code</button>
+                    
+                </div>
+                <div class="col">
+                    <img src="assets/bmi.png" alt="BMI" width="100%" loading="lazy">
                    
                 </div>
             </div>
