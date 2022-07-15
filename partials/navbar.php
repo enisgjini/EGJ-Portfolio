@@ -2,7 +2,7 @@
     <input type="checkbox" id="nav-check" placeholder=""  aria-labelledby="temperature low">
     <div class="nav-header">
         <div class="nav-title">
-           <a href="index.php">EGJ</a> 
+           <a href="index.php" class="egj">EGJ</a> 
         </div>
     </div>
     <div class="nav-btn">

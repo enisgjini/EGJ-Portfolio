@@ -24,7 +24,8 @@ body {
     height: 70px;
     position: fixed;
     padding: 5px;
-    backdrop-filter: blur(50px) saturate(180%);
+    /* backdrop-filter: blur(50px) saturate(180%);
+    -webkit-backdrop-filter: blur(50px); */
     background-color: #F5F5F5;
     border-bottom: 1px solid;
     padding: 10px;
@@ -43,6 +44,8 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
+    text-decoration: none;
+
 }
 
 .nav>.nav-btn {
@@ -76,6 +79,13 @@ body {
     display: none;
 }
 
+.egj{
+    text-decoration: none;
+    color: #000000;
+}
+.egj:hover{
+    color: rgba(0, 0, 0, 0.3);
+}
 
 main {
     padding-top: 250px;
