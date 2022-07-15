@@ -96,7 +96,7 @@
                     
                 </div>
                 <div class="col">
-                    <img src="assets/trofta.png" alt="Trofta" width="100%" loading="lazy">
+                    <img src="assets/trofta.png" alt="Trofta" width="100%" height="100%" loading="lazy">
                    
                 </div>
             </div>
@@ -113,7 +113,7 @@
                     
                 </div>
                 <div class="col">
-                    <img src="assets/al-vesuvio.png" alt="Pizzeria Al Vesuvio" width="100%" loading="lazy">
+                    <img src="assets/al-vesuvio.png" alt="Pizzeria Al Vesuvio" width="100%" height="100%" loading="lazy">
                    
                 </div>
             </div>
@@ -130,7 +130,7 @@
                     
                 </div>
                 <div class="col">
-                    <img src="assets/hib.png" alt="HIB" width="100%" loading="lazy">
+                    <img src="assets/hib.png" alt="HIB" width="100%" height="100%" loading="lazy">
                    
                 </div>
             </div>
@@ -146,7 +146,7 @@
                     
                 </div>
                 <div class="col">
-                    <img src="assets/taxi.png" alt="Sursee" width="100%" loading="lazy">
+                    <img src="assets/taxi.png" alt="Sursee" width="100%" height="100%" loading="lazy">
                    
                 </div>
             </div>
@@ -163,7 +163,7 @@
                     
                 </div>
                 <div class="col">
-                    <img src="assets/bmi.png" alt="BMI" width="100%" loading="lazy">
+                    <img src="assets/bmi.png" alt="BMI" width="100%" height="100%" loading="lazy">
                    
                 </div>
             </div>
