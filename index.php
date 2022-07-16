@@ -9,6 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Enis Gjini,StarLabs,Intern,Kosovo">
 
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" />
+
     <!-- Fav Icon of webpage -->
     <link rel="icon" type="image/png" href="assets/favicon.ico">
 
@@ -189,10 +192,12 @@
         <?php include("partials/mailer.php") ?>
 
         <section id="contact">
-            <div class="container" id="project-Sursee">
+            <h1 class="project-title">Say Hello</h1>
+
+            <div class="container" id="contact">
+
                 <div class="row">
-                    <h1 class="project-title">Say Hello</h1>
-                    <br>
+
                     <p class="project-info">
                         Looking to start a new project or just want to say hi? Send me an email and I’ll do my best to
                         reply within 24 hrs!
@@ -202,10 +207,16 @@
                     </p>
                 </div>
                 <div class="col">
-                    <form id="frmContact" action="" method="post">
-                        <p>Subject <input type="text" name="subject" id="" value=""></p>
-                        <p>Message <input type="text" name="message" id="" value=""></p>
-                        <button type="submit" name="send">Send</button>
+                    <form id="contact-form" action="" method="post">
+                        <p class="input-label">Subject</p>
+                        <input type="text" name="subject" id="input-subject" value="">
+                        <p class="input-label">Message </p><textarea name="message" id="textarea-message"
+                            value=""> </textarea>
+                        <br>
+                        <button type="submit" class="slide" name="send">
+                            <div>Slide</div>
+                            <i class="icon-arrow-right"></i>
+                        </button>
                     </form>
 
                 </div>

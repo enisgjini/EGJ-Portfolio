@@ -217,6 +217,12 @@ main {
     padding-top: 25px;
 }
 
+#contact {
+    margin-top: 100px;
+    margin-bottom: 150px;
+    padding-top: 25px;
+}
+
 .project-title {
     font-family: 'Neue Haas Grotesk Display Pro';
     font-style: normal;
@@ -285,19 +291,40 @@ main {
 
 
 
-#frmContact {
-    border-top: #a2d0c8 2px solid;
-    background: #b1e2da;
-    padding: 10px;
+#contact-form {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
 }
 
-#frmContact div {
-    margin-bottom: 20px;
+.input-label {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    transition: all 0.5s ease;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
-#frmContact div label {
-    margin: 5px 0px 0px 5px;
-    color: #49615d;
+#input-subject {
+    padding: 5px;
+    width: 250px;
+    border: 1px solid black;
+
+
+    /* border-style: none none solid none; */
+}
+
+#textarea-message {
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    min-width: 250px;
+    resize: vertical;
+    font-family: 'Neue Haas Grotesk Display Pro';
 }
 
 .demoInputBox {
