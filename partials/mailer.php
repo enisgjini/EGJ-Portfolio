@@ -18,7 +18,7 @@
         $mail->Password     =   "fckdfuritbkmfbmg";
         $mail->SMTPSecure   =   PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port         =   465;
-        $mail->setFrom('tt525054@gmail.com' , 'Mailer');
+        $mail->setFrom('tt525054@gmail.com' , 'User from portfolio');
         $mail->addAddress("tt525054@gmail.com");
         $mail->isHTML(true);
         $mail->Subject = $_POST["subject"];
@@ -30,4 +30,3 @@
     // else {
     //     echo "<script>alert('Message could not be sent') </script>";
     // }
-?>

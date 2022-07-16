@@ -45,6 +45,7 @@
         </section>
 
         <section id="about">
+
             <div class="container">
                 <div class="col">
 
@@ -86,6 +87,7 @@
         </section>
 
         <section id="projects">
+            <h1 class="project-title">Projects</h1>
             <div class="container" id="project-trofta">
                 <div class="col">
                     <h1 class="project-title">
@@ -194,7 +196,7 @@
         <section id="contact">
             <h1 class="project-title">Say Hello</h1>
 
-            <div class="container" id="contact">
+            <div id="contact">
 
                 <div class="row">
 
@@ -205,8 +207,6 @@
                     <p class="project-info">
                         If contact forms aren’t your thing... send me an email at hello@arnau.design
                     </p>
-                </div>
-                <div class="col">
                     <form id="contact-form" action="" method="post">
                         <p class="input-label">Subject</p>
                         <input type="text" name="subject" id="input-subject" value="">
@@ -214,11 +214,10 @@
                             value=""> </textarea>
                         <br>
                         <button type="submit" class="slide" name="send">
-                            <div>Slide</div>
+                            <div>Submit</div>
                             <i class="icon-arrow-right"></i>
                         </button>
                     </form>
-
                 </div>
             </div>
         </section>
