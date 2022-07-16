@@ -28,9 +28,10 @@
         echo '<script>alert("Message has been sent")</script>';
     }
     else{
-        echo "<script>alert('Message could not be sent')</script>";
+        echo "<script>alert('Message could not be sent') </script>";
     }
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -230,6 +231,10 @@
                 </div>
                 <div class="col">
                     <form id="frmContact" action="" method="post">
+                        <?php 
+                            $rand=rand();
+                            $_SESSION['rand']=$rand; 
+                        ?>
                         <p>Subject <input type="text" name="subject" id="" value=""></p>
                         <p>Message <input type="text" name="message" id="" value=""></p>
                         <button type="submit" name="send">Send</button>
