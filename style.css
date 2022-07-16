@@ -92,17 +92,34 @@ main {
     padding-top: 250px;
 }
 
+.row {
+    display: flex;
+}
 
-.container {
-    display: grid;
-    grid-template-columns: 45% 45%;
-    grid-column-gap: 10%;
-    justify-items: stretch;
-    align-items: stretch;
+.column-1 {
+    flex-basis: 50%;
 }
 
 
+.box {
+    background-color: rgb(245, 215, 160);
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid rgb(116, 113, 113);
+    margin: 1rem;
+    box-shadow: 1px 1px 1px #000;
+}
 
+@media only screen and (max-width: 900px) {
+    .row {
+        /* it place the items in vertical direction */
+        flex-direction: column;
+    }
+
+    .box {
+        margin: 0 0 1rem;
+    }
+}
 
 .personal-info {
     font-family: 'Neue Haas Grotesk Display Pro';

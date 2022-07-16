@@ -5,7 +5,7 @@
     <!-- Here are meta tag's -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta http-equiv="Content-Security-Policy" content="script-src-elem 'none'"> -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Enis Gjini,StarLabs,Intern,Kosovo">
 
@@ -25,30 +25,71 @@
 <body>
     <!-- Including navbar(topbar) using statement called include -->
     <?php include("partials/navbar.php"); ?>
-    <script>
-    if (window.history.replaceState) {
-        window.history.replaceState(null, null, window.location.href);
-    }
-    </script>
+    <!-- The main HTML -->
     <main class="main">
+        <!-- Section Home ~ Start -->
         <section id="home">
             <div class="container">
-                <div class="col">
-                    <p class="personal-info">I’m Arnau Ros, a graphic designer & content creator based in Barcelona.
-                        Available for freelance &
-                        collaborations. </p>
+                <div class="row">
+                    <div class="column-1 box">
+                        <h1>What is Lorem Ipsum?</h1>
+                        <p>
+                            What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry. Lorem Ipsum has been the industry's standard
+                            dummy text ever since the 1500s, when an unknown printer took a galley
+                            of type and scrambled it to make a type specimen book. It has survived
+                            not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged
+                        </p>
+                    </div>
+                    <div class="column-1 box">
+                        <h1>What is Lorem Ipsum?</h1>
+                        <p>
+                            What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry. Lorem Ipsum has been the industry's standard
+                            dummy text ever since the 1500s, when an unknown printer took a galley
+                            of type and scrambled it to make a type specimen book. It has survived
+                            not only five centuries, but also the leap into electronic
+                            typesetting, remaining essentially unchanged
+                        </p>
+                    </div>
                 </div>
-                <div class="col">
-                    <img src="assets/profile.webp" alt="" width="100%" height="100%" loading="lazy">
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="personal-info">
+                            Hi, my name is Enis Gjini
+                            I'm the Full Stack Developer based in Kosovo.
+                            Available for freelance &
+                            collaborations.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <img src="assets/profile.webp" alt="" width="100%" height="100%" loading="lazy">
+                    </div>
                 </div>
             </div>
         </section>
+        <!-- Section Home ~ End -->
 
         <section id="about">
             <h1 class="project-title">About</h1>
             <div class="container">
                 <div>
-                    <p class="about-me">I'm a product designer working on various projects on a wide range of clients.
+                    <p class="about-me">
+                        I'm a product designer working on various projects on a wide range of clients.
                         My
                         skillset lies on creating branding packages & websites to deliver the full online experience for
                         new
