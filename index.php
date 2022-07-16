@@ -194,7 +194,7 @@
         <?php include("partials/mailer.php") ?>
 
         <section id="contact">
-            <h1 class="project-title">Say Hello</h1>
+            <h1 class="project-title">Contact</h1>
 
             <div id="contact">
 
