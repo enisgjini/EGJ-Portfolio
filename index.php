@@ -217,7 +217,7 @@
 
         <section id="contact">
             <div class="container" id="project-Sursee">
-                <div class="col">
+                <div class="row">
                     <h1 class="project-title">Say Hello</h1>
                     <br>
                     <p class="project-info">
@@ -234,7 +234,7 @@
                         <p>Message <input type="text" name="message" id="" value=""></p>
                         <button type="submit" name="send">Send</button>
                     </form>
-                    
+
                 </div>
             </div>
         </section>
