@@ -223,6 +223,16 @@ main {
     padding-top: 25px;
 }
 
+.contact-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
 .project-title {
     font-family: 'Neue Haas Grotesk Display Pro';
     font-style: normal;
@@ -230,6 +240,16 @@ main {
     font-size: 45.0633px;
     line-height: 52px;
     border-bottom: 1px solid black;
+    margin: 15px;
+}
+
+.project-subtitle {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45.0633px;
+    line-height: 52px;
+
     margin: 15px;
 }
 

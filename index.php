@@ -45,10 +45,9 @@
         </section>
 
         <section id="about">
-
+            <h1 class="project-title">About</h1>
             <div class="container">
-                <div class="col">
-
+                <div>
                     <p class="about-me">I'm a product designer working on various projects on a wide range of clients.
                         My
                         skillset lies on creating branding packages & websites to deliver the full online experience for
@@ -60,7 +59,7 @@
                         what
                         I know to the next generation of designers.‍</p>
                 </div>
-                <div class="col">
+                <div>
                     <button class="accordion">Branding/Logo</button>
                     <div class="panel">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
@@ -90,7 +89,7 @@
             <h1 class="project-title">Projects</h1>
             <div class="container" id="project-trofta">
                 <div class="col">
-                    <h1 class="project-title">
+                    <h1 class="project-subtitle">
                         Trofta
                     </h1>
                     <br>
@@ -110,7 +109,7 @@
 
             <div class="container" id="project-vesuvio">
                 <div class="col">
-                    <h1 class="project-title">
+                    <h1 class="project-subtitle">
                         Pizzeria Al Vesuvio
                     </h1>
                     <br>
@@ -132,7 +131,7 @@
 
             <div class="container" id="project-HIB">
                 <div class="col">
-                    <h1 class="project-title">
+                    <h1 class="project-subtitle">
                         HIB
                     </h1>
                     <br>
@@ -151,7 +150,7 @@
             </div>
             <div class="container" id="project-Sursee">
                 <div class="col">
-                    <h1 class="project-title">
+                    <h1 class="project-subtitle">
                         Taxizentrale Sursee
                     </h1>
                     <br>
@@ -170,7 +169,7 @@
 
             <div class="container" id="project-BMI">
                 <div class="col">
-                    <h1 class="project-title">
+                    <h1 class="project-subtitle">
                         BMI
                     </h1>
                     <br>
@@ -193,20 +192,18 @@
 
         <?php include("partials/mailer.php") ?>
 
+        <!--  -->
         <section id="contact">
             <h1 class="project-title">Contact</h1>
-
-            <div id="contact">
-
-                <div class="row">
-
-                    <p class="project-info">
-                        Looking to start a new project or just want to say hi? Send me an email and I’ll do my best to
-                        reply within 24 hrs!
-                    </p>
-                    <p class="project-info">
-                        If contact forms aren’t your thing... send me an email at hello@arnau.design
-                    </p>
+            <div class="contact-div">
+                <p class="project-info">
+                    Looking to start a new project or just want to say hi? Send me an email and I’ll do my best to
+                    reply within 24 hrs!
+                </p>
+                <p class="project-info">
+                    If contact forms aren’t your thing... send me an email at hello@arnau.design
+                </p>
+                <div>
                     <form id="contact-form" action="" method="post">
                         <p class="input-label">Subject</p>
                         <input type="text" name="subject" id="input-subject" value="">
@@ -221,6 +218,7 @@
                 </div>
             </div>
         </section>
+
     </main>
 
 
