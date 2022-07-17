@@ -5,10 +5,10 @@
     <!-- Here are meta tag's -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Enis Gjini,StarLabs,Intern,Kosovo">
 
+    <!-- Simple line icons CDN -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" />
 
@@ -32,43 +32,6 @@
             <div class="container">
                 <div class="row">
                     <div class="column-1 box">
-                        <h1>What is Lorem Ipsum?</h1>
-                        <p>
-                            What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
-                            and typesetting industry. Lorem Ipsum has been the industry's standard
-                            dummy text ever since the 1500s, when an unknown printer took a galley
-                            of type and scrambled it to make a type specimen book. It has survived
-                            not only five centuries, but also the leap into electronic
-                            typesetting, remaining essentially unchanged
-                        </p>
-                    </div>
-                    <div class="column-1 box">
-                        <h1>What is Lorem Ipsum?</h1>
-                        <p>
-                            What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
-                            and typesetting industry. Lorem Ipsum has been the industry's standard
-                            dummy text ever since the 1500s, when an unknown printer took a galley
-                            of type and scrambled it to make a type specimen book. It has survived
-                            not only five centuries, but also the leap into electronic
-                            typesetting, remaining essentially unchanged
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-
-
-
-
-
-
-            <div class="container">
-                <div class="row">
-                    <div class="col">
                         <p class="personal-info">
                             Hi, my name is Enis Gjini
                             I'm the Full Stack Developer based in Kosovo.
@@ -76,7 +39,7 @@
                             collaborations.
                         </p>
                     </div>
-                    <div class="col">
+                    <div class="column-1 box">
                         <img src="assets/profile.webp" alt="" width="100%" height="100%" loading="lazy">
                     </div>
                 </div>

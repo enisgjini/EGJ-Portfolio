@@ -102,12 +102,8 @@ main {
 
 
 .box {
-    background-color: rgb(245, 215, 160);
     padding: 10px;
-    border-radius: 12px;
-    border: 2px solid rgb(116, 113, 113);
     margin: 1rem;
-    box-shadow: 1px 1px 1px #000;
 }
 
 @media only screen and (max-width: 900px) {
