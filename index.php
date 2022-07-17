@@ -9,8 +9,7 @@
     <meta name="description" content="Enis Gjini,StarLabs,Intern,Kosovo">
 
     <!-- Simple line icons CDN -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" />
 
     <!-- Font Awesome CDN -->
     <script src="https://kit.fontawesome.com/a1927a49ea.js" crossorigin="anonymous"></script>
@@ -69,25 +68,30 @@
                     </p>
                 </div>
                 <div class="column-1 box">
-                    <button class="accordion">Branding/Logo</button>
+                    <button class="accordion">Development</button>
                     <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p class="
+                        accordion-text">Enis has developed design skills that are employed to offer a pleasurable user
+                            experience
+                            inside their app journey. This is done by creating clean user interfaces and stunning
+                            animations based on the app's nature. Enis always makes sure that the delivered code is
+                            clean, scalable, and tested. He has implemented various website's and web-app's for his
+                            clients.</p>
                     </div>
 
-                    <button class="accordion">Packaging</button>
+                    <button class="accordion">Design</button>
                     <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p class="
+                        accordion-text">Enis also has a very sharp eye in designing web pages, web applications and
+                            software.
+                            He has achieved this thanks to courses and consistency, using the so-called tools: Figma,
+                            Adobe XD, etc.</p>
                     </div>
 
-                    <button class="accordion">Websites</button>
+                    <button class="accordion">CV</button>
                     <div class="panel">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="#" onclick="window.open('assets/Enis Gjini - CV.pdf', '_blank', 'fullscreen=yes'); return false;"><button class="code-of-project">View CV</button> </a>
+
                     </div>
                 </div>
             </div>
@@ -107,8 +111,7 @@
                         media various social media (facebook,instagram,etc.) </p>
                     <a href="https://trofta.netlify.app/index.html" target="_blank"><button class="demo-of-project">See
                             live</button></a>
-                    <a href="https://github.com/enisgjini/trofta-website" target="_blank"> <button
-                            class="code-of-project">Source code</button></a>
+                    <a href="https://github.com/enisgjini/trofta-website" target="_blank"> <button class="code-of-project">Source code</button></a>
                 </div>
                 <div class="column-1 box">
                     <img src="assets/trofta.webp" alt="Trofta" width="100%" height="100%" loading="lazy">
@@ -125,12 +128,10 @@
                         readable as well as more communicative with the person looking at the menu. </p>
                     <a href="http://enisgj-11.epizy.com/?i=1" target="_blank"><button class="demo-of-project">See
                             live</button></a>
-                    <a href="https://github.com/enisgjini/pizzeria-al-vesuvio" target="_blank"> <button
-                            class="code-of-project">Source code</button></a>
+                    <a href="https://github.com/enisgjini/pizzeria-al-vesuvio" target="_blank"> <button class="code-of-project">Source code</button></a>
                 </div>
                 <div class="column-1 box">
-                    <img src="assets/al-vesuvio.webp" alt="Pizzeria Al Vesuvio" width="100%" height="100%"
-                        loading="lazy">
+                    <img src="assets/al-vesuvio.webp" alt="Pizzeria Al Vesuvio" width="100%" height="100%" loading="lazy">
                 </div>
             </div>
             <div class="row" id="project-HIB">
@@ -144,8 +145,7 @@
                         of the restaurants managed by this company and below is the explanation.</p>
                     <a href="http://enisgj-10.epizy.com/?i=1" target="_blank"><button class="demo-of-project">See
                             live</button></a>
-                    <a href="https://github.com/enisgjini/hibpetrol-web-application" target="_blank"> <button
-                            class="code-of-project">Source code</button></a>
+                    <a href="https://github.com/enisgjini/hibpetrol-web-application" target="_blank"> <button class="code-of-project">Source code</button></a>
                 </div>
                 <div class="column-1 box">
                     <img src="assets/hib.webp" alt="HIB" width="100%" height="100%" loading="lazy">
@@ -160,10 +160,8 @@
                     <p class="project-info">Taxi Website Content is a vital component of effective Taxi Website Design.
                         While content includes graphics, photo galleries and images, what Search Engines such as Google
                         and Yahoo are especially fond of is a website that is rich in text.</p>
-                    <a href="https://taxizentrale-sursee.netlify.app/" target="_blank"><button
-                            class="demo-of-project">See live</button></a>
-                    <a href="https://github.com/enisgjini/taxizentrale-sursee" target="_blank"> <button
-                            class="code-of-project">Source code</button></a>
+                    <a href="https://taxizentrale-sursee.netlify.app/" target="_blank"><button class="demo-of-project">See live</button></a>
+                    <a href="https://github.com/enisgjini/taxizentrale-sursee" target="_blank"> <button class="code-of-project">Source code</button></a>
                 </div>
                 <div class="column-1 box">
                     <img src="assets/taxi.webp" alt="Sursee" width="100%" height="100%" loading="lazy">
@@ -180,9 +178,7 @@
                         the same weight and weight person. The formula is BMI = kg / m2 where kg is the weight of a
                         person in kilograms and m2 is his weight in meters squared. A BMI of 25.0 or more is overweight,
                         while the healthy range is from 18.5 to 24.9. </p>
-                    <a href="https://github.com/enisgjini/bmi/releases/download/v1.0.0/app-release.apk"
-                        target="_blank"><button class="demo-of-project">Download <img
-                                src="https://img.icons8.com/fluency/25/000000/android-os.png" /></button></a>
+                    <a href="https://github.com/enisgjini/bmi/releases/download/v1.0.0/app-release.apk" target="_blank"><button class="demo-of-project">Download <img src="https://img.icons8.com/fluency/25/000000/android-os.png" /></button></a>
                     <a href="https://github.com/enisgjini/bmi" target="_blank"> <button class="code-of-project">Source
                             code</button></a>
                 </div>
@@ -211,11 +207,10 @@
                     <form id="contact-form" action="" method="post">
                         <p class="input-label">Subject</p>
                         <input type="text" name="subject" id="input-subject" value="">
-                        <p class="input-label">Message </p><textarea name="message" id="textarea-message"
-                            value=""> </textarea>
+                        <p class="input-label">Message </p><textarea name="message" id="textarea-message" value=""> </textarea>
                         <br>
                         <button type="submit" class="slide" name="send">
-                            <div>Submit</div>
+                            <div id="send-message">Send</div>
                             <i class="icon-arrow-right"></i>
                         </button>
                     </form>

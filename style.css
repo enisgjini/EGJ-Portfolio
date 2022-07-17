@@ -180,10 +180,17 @@ main {
     background-color: white;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.0.8s ease-out;
+    transition: max-height 0.3s ease-out;
 }
 
 
+
+#send-message {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
 
 #home {
     margin-bottom: 150px;
@@ -299,6 +306,16 @@ main {
     border-radius: 3px;
     cursor: pointer;
     box-shadow: 10px 7px #888888;
+}
+
+.accordion-text {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+
+    color: #000000;
 }
 
 .demo-of-project {
@@ -555,14 +572,14 @@ main {
 
     .nav>.nav-btn>label:hover,
     .nav #nav-check:checked~.nav-btn>label {
-        background-color: rgba(0, 0, 0, 0.3);
+        background-color: ;
     }
 
     .nav>.nav-btn>label>span {
         display: block;
         width: 25px;
-        height: 10px;
-        border-top: 2px solid #eee;
+        height: 15px;
+        border-top: 1px solid #000000;
     }
 
     .nav>.nav-links {
@@ -575,20 +592,24 @@ main {
         overflow-y: hidden;
         top: 50px;
         left: 0px;
+        color: white;
     }
 
     .nav>.nav-links>a {
         display: block;
         width: 100%;
+        color: white;
     }
 
     .nav>#nav-check:not(:checked)~.nav-links {
         height: 0px;
+        color: white;
     }
 
     .nav>#nav-check:checked~.nav-links {
         height: calc(100vh - 50px);
         overflow-y: auto;
+        color: white;
     }
 
     .column {
