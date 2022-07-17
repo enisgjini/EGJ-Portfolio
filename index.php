@@ -12,6 +12,9 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" />
 
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/a1927a49ea.js" crossorigin="anonymous"></script>
+
     <!-- Fav Icon of webpage -->
     <link rel="icon" type="image/png" href="assets/favicon.ico">
 
@@ -113,7 +116,7 @@
             </div>
             <div class="row" id="project-vesuvio">
                 <div class="column-1 box">
-                    <h1 class="project-subtitle">http://localhost/portfolio
+                    <h1 class="project-subtitle">
                         Pizzeria Al Vesuvio
                     </h1>
                     <br>
@@ -221,6 +224,7 @@
         </section>
         <!-- Section Contact ~ End -->
 
+        <?php include("partials/footer.php") ?>
     </main>
     <!-- External Javascript -->
     <script src="app.js"></script>

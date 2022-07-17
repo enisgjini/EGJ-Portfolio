@@ -486,12 +486,55 @@ main {
     width: 32%;
 }
 
+.footer {
+    width: 100%;
+    padding: 5px;
+    background-color: #F5F5F5;
+    padding: 10px;
+    border-top: 1px solid black;
+}
+
+.footer>.footer-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+    float: right;
+}
+
+.footer>.container>.row>.column>.footer-title {
+    display: inline-block;
+    font-size: 25px;
+    color: #000000;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    float: left;
+}
+
+.footer>.container>.row>.column>.footer-links>a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000000;
+}
+
 @media all and (max-width: 550px) {
     .contact-row {
         display: block;
         width: 100%;
     }
 }
+
+
+
+
 
 
 /* Responsive for mobile */
