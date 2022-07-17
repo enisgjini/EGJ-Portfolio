@@ -91,11 +91,12 @@
         </section>
         <!-- Section About ~ End -->
 
-
+        <!-- Section Projects ~ Start -->
         <section id="projects">
             <h1 class="project-title">Projects</h1>
-            <div class="container" id="project-trofta">
-                <div class="col">
+            <div class="row" id="project-trofta">
+                <div class="column-1 box">
+
                     <h1 class="project-subtitle">
                         Trofta
                     </h1>
@@ -108,14 +109,14 @@
                             class="code-of-project">Source code</button></a>
 
                 </div>
-                <div class="col">
+                <div class="column-1 box">
                     <img src="assets/trofta.webp" alt="Trofta" width="100%" height="100%" loading="lazy">
 
                 </div>
             </div>
 
-            <div class="container" id="project-vesuvio">
-                <div class="col">
+            <div class="row" id="project-vesuvio">
+                <div class="column-1 box">
                     <h1 class="project-subtitle">
                         Pizzeria Al Vesuvio
                     </h1>
@@ -129,15 +130,15 @@
                             class="code-of-project">Source code</button></a>
 
                 </div>
-                <div class="col">
+                <div class="column-1 box">
                     <img src="assets/al-vesuvio.webp" alt="Pizzeria Al Vesuvio" width="100%" height="100%"
                         loading="lazy">
 
                 </div>
             </div>
 
-            <div class="container" id="project-HIB">
-                <div class="col">
+            <div class="row" id="project-HIB">
+                <div class="column-1 box">
                     <h1 class="project-subtitle">
                         HIB
                     </h1>
@@ -151,12 +152,13 @@
                             class="code-of-project">Source code</button></a>
 
                 </div>
-                <div class="col">
+                <div class="column-1 box">
                     <img src="assets/hib.webp" alt="HIB" width="100%" height="100%" loading="lazy">
                 </div>
             </div>
-            <div class="container" id="project-Sursee">
-                <div class="col">
+
+            <div class="row" id="project-Sursee">
+                <div class="column-1 box">
                     <h1 class="project-subtitle">
                         Taxizentrale Sursee
                     </h1>
@@ -169,13 +171,13 @@
                     <a href="https://github.com/enisgjini/taxizentrale-sursee" target="_blank"> <button
                             class="code-of-project">Source code</button></a>
                 </div>
-                <div class="col">
+                <div class="column-1 box">
                     <img src="assets/taxi.webp" alt="Sursee" width="100%" height="100%" loading="lazy">
                 </div>
             </div>
 
-            <div class="container" id="project-BMI">
-                <div class="col">
+            <div class="row" id="project-BMI">
+                <div class="column-1 box">
                     <h1 class="project-subtitle">
                         BMI
                     </h1>
@@ -186,16 +188,19 @@
                         person in kilograms and m2 is his weight in meters squared. A BMI of 25.0 or more is overweight,
                         while the healthy range is from 18.5 to 24.9. </p>
                     <a href="https://github.com/enisgjini/bmi/releases/download/v1.0.0/app-release.apk"
-                        target="_blank"><button class="demo-of-project">Download <img alt="svgImg"
-                                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjYiIGhlaWdodD0iMjYiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjMzBkYzgwIiBkPSJNMjQsMTQuMDg4QzExLjQyNywxNC4wODgsMS4xMDgsMjMuNzE2LDAsMzZoNDhDNDYuODkyLDIzLjcxNiwzNi41NzMsMTQuMDg4LDI0LDE0LjA4OHogTTMzLjE3OSwyNy4wNzljMC0xLjEwNCwwLjg5NS0xLjk5OSwxLjk5OS0xLjk5OWMxLjEwNCwwLDEuOTk5LDAuODk1LDEuOTk5LDEuOTk5YzAsMS4xMDQtMC44OTUsMS45OTktMS45OTksMS45OTkJQzM0LjA3NCwyOS4wNzgsMzMuMTc5LDI4LjE4MywzMy4xNzksMjcuMDc5eiBNMTIuODIyLDI5LjA3OGMtMS4xMDQsMC0xLjk5OS0wLjg5NS0xLjk5OS0xLjk5OWMwLTEuMTA0LDAuODk1LTEuOTk5LDEuOTk5LTEuOTk5CXMxLjk5OSwwLjg5NSwxLjk5OSwxLjk5OUMxNC44MjEsMjguMTgzLDEzLjkyNiwyOS4wNzgsMTIuODIyLDI5LjA3OHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMzBkYzgwIiBkPSJNMzQuMDM4LDE5LjMxM2MtMC4xNCwwLTAuMjgxLTAuMDM1LTAuNDEtMC4xMWMtMC4zOTMtMC4yMjctMC41MjctMC43MjktMC4zMDEtMS4xMjJsNS4xOTctOS4wMDgJYzAuMjI3LTAuMzk0LDAuNzI5LTAuNTI5LDEuMTIyLTAuMzAxYzAuMzkzLDAuMjI3LDAuNTI3LDAuNzI5LDAuMzAxLDEuMTIybC01LjE5Nyw5LjAwOEMzNC41OTgsMTkuMTY2LDM0LjMyMiwxOS4zMTMsMzQuMDM4LDE5LjMxMwl6Ij48L3BhdGg+PHBhdGggZmlsbD0iIzMwZGM4MCIgZD0iTTEzLjk2MiwxOS4zMTNjLTAuMjg0LDAtMC41Ni0wLjE0OC0wLjcxMi0wLjQxMUw4LjA1NCw5Ljg5NEM3LjgyNyw5LjUwMSw3Ljk2Miw4Ljk5OSw4LjM1NCw4Ljc3MgljMC4zOTItMC4yMjgsMC44OTUtMC4wOTMsMS4xMjIsMC4zMDFsNS4xOTcsOS4wMDhjMC4yMjcsMC4zOTQsMC4wOTIsMC44OTYtMC4zMDEsMS4xMjJDMTQuMjQzLDE5LjI3OCwxNC4xMDIsMTkuMzEzLDEzLjk2MiwxOS4zMTN6Ij48L3BhdGg+PC9zdmc+" /></button></a>
+                        target="_blank"><button class="demo-of-project">Download <img
+                                src="https://img.icons8.com/fluency/25/000000/android-os.png" /></button></a>
                     <a href="https://github.com/enisgjini/bmi" target="_blank"> <button class="code-of-project">Source
                             code</button></a>
                 </div>
-                <div class="col">
+                <div class="column-1 box">
                     <img src="assets/bmi.webp" alt="BMI" width="100%" height="100%" loading="lazy">
                 </div>
             </div>
+
         </section>
+
+        <!-- Section Projects ~ End -->
 
         <?php include("partials/mailer.php") ?>
 
