@@ -571,9 +571,7 @@ main {
     }
 
     .nav>.nav-btn>label:hover,
-    .nav #nav-check:checked~.nav-btn>label {
-        background-color: ;
-    }
+    .nav #nav-check:checked~.nav-btn>label {}
 
     .nav>.nav-btn>label>span {
         display: block;
