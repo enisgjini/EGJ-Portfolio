@@ -153,6 +153,7 @@ main {
     font-weight: 400;
     font-size: 30px;
     line-height: 64px;
+    border-bottom: 1px solid black;
 }
 
 .active,
@@ -162,17 +163,17 @@ main {
 }
 
 .accordion:after {
-    /* content: '\1F783'; */
+    content: '\1F783';
     color: #777;
     font-weight: bold;
     float: right;
     margin-left: 5px;
 }
 
-/* .active:after {
-    content: "\1F891";
-} 
-*/
+.active:after {
+    content: "\1F781";
+}
+
 .panel {
     padding: 0 18px;
     background-color: white;
