@@ -96,7 +96,6 @@
             <h1 class="project-title">Projects</h1>
             <div class="row" id="project-trofta">
                 <div class="column-1 box">
-
                     <h1 class="project-subtitle">
                         Trofta
                     </h1>
@@ -107,17 +106,14 @@
                             live</button></a>
                     <a href="https://github.com/enisgjini/trofta-website" target="_blank"> <button
                             class="code-of-project">Source code</button></a>
-
                 </div>
                 <div class="column-1 box">
                     <img src="assets/trofta.webp" alt="Trofta" width="100%" height="100%" loading="lazy">
-
                 </div>
             </div>
-
             <div class="row" id="project-vesuvio">
                 <div class="column-1 box">
-                    <h1 class="project-subtitle">
+                    <h1 class="project-subtitle">http://localhost/portfolio
                         Pizzeria Al Vesuvio
                     </h1>
                     <br>
@@ -128,15 +124,12 @@
                             live</button></a>
                     <a href="https://github.com/enisgjini/pizzeria-al-vesuvio" target="_blank"> <button
                             class="code-of-project">Source code</button></a>
-
                 </div>
                 <div class="column-1 box">
                     <img src="assets/al-vesuvio.webp" alt="Pizzeria Al Vesuvio" width="100%" height="100%"
                         loading="lazy">
-
                 </div>
             </div>
-
             <div class="row" id="project-HIB">
                 <div class="column-1 box">
                     <h1 class="project-subtitle">
@@ -150,13 +143,11 @@
                             live</button></a>
                     <a href="https://github.com/enisgjini/hibpetrol-web-application" target="_blank"> <button
                             class="code-of-project">Source code</button></a>
-
                 </div>
                 <div class="column-1 box">
                     <img src="assets/hib.webp" alt="HIB" width="100%" height="100%" loading="lazy">
                 </div>
             </div>
-
             <div class="row" id="project-Sursee">
                 <div class="column-1 box">
                     <h1 class="project-subtitle">
@@ -175,7 +166,6 @@
                     <img src="assets/taxi.webp" alt="Sursee" width="100%" height="100%" loading="lazy">
                 </div>
             </div>
-
             <div class="row" id="project-BMI">
                 <div class="column-1 box">
                     <h1 class="project-subtitle">
@@ -197,14 +187,13 @@
                     <img src="assets/bmi.webp" alt="BMI" width="100%" height="100%" loading="lazy">
                 </div>
             </div>
-
         </section>
-
         <!-- Section Projects ~ End -->
 
+        <!-- Including mailer(PHPMailer) using statement called include   -->
         <?php include("partials/mailer.php") ?>
 
-        <!--  -->
+        <!-- Section Contact ~ Start -->
         <section id="contact">
             <h1 class="project-title">Contact</h1>
             <div class="contact-div">
@@ -230,12 +219,9 @@
                 </div>
             </div>
         </section>
+        <!-- Section Contact ~ End -->
 
     </main>
-
-
-
-
     <!-- External Javascript -->
     <script src="app.js"></script>
 </body>
