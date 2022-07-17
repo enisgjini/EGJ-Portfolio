@@ -1,8 +1,8 @@
 <div class="nav" id="navbar">
-    <input type="checkbox" id="nav-check" placeholder=""  aria-labelledby="temperature low">
+    <input type="checkbox" id="nav-check" placeholder="" aria-labelledby="temperature low">
     <div class="nav-header">
         <div class="nav-title">
-           <a href="index.php" class="egj">EGJ</a> 
+            <a href="index.php" class="egj">EGJ</a>
         </div>
     </div>
     <div class="nav-btn">
